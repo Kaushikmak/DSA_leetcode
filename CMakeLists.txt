@@ -4,4 +4,4 @@ project(Leetcode)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Leetcode
-        4_Median_of_Two_Sorted_Arrays/4_Median_of_Two_Sorted_Arrays.cpp)
+        4_Median_of_Two_Sorted_Arrays/bruteforce.cpp)
