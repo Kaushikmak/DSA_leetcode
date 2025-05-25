@@ -1,3 +1,13 @@
-.vscode/
-cmake-build-debug/
+# IDE
 .idea/
+.vscode/
+
+# CMake build
+cmake-build-debug/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+*.cmake
+*.o
+*.out
+*.exe
