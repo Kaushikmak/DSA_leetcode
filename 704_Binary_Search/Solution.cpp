@@ -4,7 +4,7 @@ using namespace std;
 
 class Solution {
 public:
-    int search(vector<int> &nums, int target) {
+    int search(const vector<int> &nums, int target) {
         int left_pointer = 0;
         int right_pointer = nums.size() - 1;
         while (left_pointer <= right_pointer) {

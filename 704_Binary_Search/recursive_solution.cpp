@@ -4,7 +4,7 @@ using namespace std;
 
 class Solution {
 public:
-    int search(vector<int> &nums, int target) {
+    int search(const vector<int> &nums, int target) {
         return binarySearch(nums, 0, nums.size() - 1, target);
     }
 
