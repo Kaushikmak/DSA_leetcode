@@ -142,4 +142,8 @@ private:
         }
         return -1;
     }
+
+    static int binarySearchRotatedDuplicate(const vector<int> &nums,const int target) {
+
+    }
 };

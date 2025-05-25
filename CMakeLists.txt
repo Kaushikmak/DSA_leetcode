@@ -8,4 +8,7 @@ add_executable(Leetcode
         704_Binary_Search/Solution.cpp
         33_Search_in_Rotated_Sorted_Array/solution.cpp
         Algorithms/Searching/BinarySearch.cpp
+        74_Search_a_2D_Matrix/solution.cpp
+        74_Search_a_2D_Matrix/optimization.cpp
+        240_Search_a_2D_Matrix_II/solution.cpp
 )
