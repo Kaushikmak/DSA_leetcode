@@ -1,14 +1,14 @@
-cmake_minimum_required(VERSION 3.31)
+cmake_minimum_required(VERSION 3.25)
 project(Leetcode)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Leetcode
-        4_Median_of_Two_Sorted_Arrays/bruteforce.cpp
-        704_Binary_Search/Solution.cpp
-        33_Search_in_Rotated_Sorted_Array/solution.cpp
-        Algorithms/Searching/BinarySearch.cpp
-        74_Search_a_2D_Matrix/solution.cpp
-        74_Search_a_2D_Matrix/optimization.cpp
-        240_Search_a_2D_Matrix_II/solution.cpp
+# Recursively collect all .cpp files in the project
+file(GLOB_RECURSE ALL_SOURCE_FILES
+        "Hard/*.cpp"
+        "Medium/*.cpp"
+        "Easy/*.cpp"
+        "Algorithms/*.cpp"
 )
+
+add_executable(Leetcode ${ALL_SOURCE_FILES})
