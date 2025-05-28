@@ -13,4 +13,6 @@ file(GLOB_RECURSE ALL_SOURCE_FILES
 
 add_executable(Leetcode ${ALL_SOURCE_FILES}
         Medium/106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal/solution.cpp
-        Medium/106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal/optimization.cpp)
+        Medium/106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal/optimization.cpp
+        "Hard/149_Max_Points_on_a _Line/solution.cpp"
+        Easy/993_Cousins_in_Binary_Tree/solution.cpp)
