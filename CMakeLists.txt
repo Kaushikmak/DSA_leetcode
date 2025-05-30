@@ -22,4 +22,7 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Medium/1448_Count_Good_Nodes_in_Binary_Tree/solution.cpp
         Medium/1161_Maximum_Level_Sum_of_a_Binary_Tree/solution.cpp
         Medium/1161_Maximum_Level_Sum_of_a_Binary_Tree/optimized.cpp
-        Medium/700_Search_in_a_Binary_Search_Tree/solution.cpp)
+        Medium/700_Search_in_a_Binary_Search_Tree/solution.cpp
+        Algorithms/Tree/serialization_and_deserialization.cpp
+        Hard/297_Serialize_and_Deserialize_Binary_Tree/solution.cpp
+        Medium/1302_Deepest_Leaves_Sum/solution.cpp)
