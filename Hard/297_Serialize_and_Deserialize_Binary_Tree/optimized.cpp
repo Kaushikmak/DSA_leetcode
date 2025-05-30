@@ -33,7 +33,7 @@ public:
     }
 
 private:
-    static constexpr const char *EMPTY = "@";
+    static constexpr auto EMPTY = "@";
 
     void _preOrderSerialization(const TreeNode *root, string &result) {
         if (root == nullptr) {

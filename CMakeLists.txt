@@ -25,4 +25,7 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Medium/700_Search_in_a_Binary_Search_Tree/solution.cpp
         Algorithms/Tree/serialization_and_deserialization.cpp
         Hard/297_Serialize_and_Deserialize_Binary_Tree/solution.cpp
-        Medium/1302_Deepest_Leaves_Sum/solution.cpp)
+        Medium/1302_Deepest_Leaves_Sum/solution.cpp
+        Hard/297_Serialize_and_Deserialize_Binary_Tree/optimized.cpp
+        Medium/1302_Deepest_Leaves_Sum/optimized.cpp
+        Medium/103_Binary_Tree_Zigzag_Level_Order_Traversal/solution.cpp)
