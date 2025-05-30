@@ -23,25 +23,24 @@ struct TreeNode {
 class Solution {
 public:
     int deepestLeavesSum(TreeNode *root) {
-        const vector<vector<int>> mat = bfs(root);
+        const vector<vector<int> > mat = bfs(root);
         const int matRows = mat.size();
-        vector<int> finalArray = mat[matRows-1];
+        vector<int> finalArray = mat[matRows - 1];
         return sum(finalArray);
-
-
     }
+
 private:
-    static vector<vector<int>> bfs(TreeNode *root) {
-        vector<vector<int>> result;
+    static vector<vector<int> > bfs(TreeNode *root) {
+        vector<vector<int> > result;
         if (!root) {
             return result;
         }
-        queue<TreeNode*> q;
+        queue<TreeNode *> q;
         q.push(root);
         while (!q.empty()) {
             const int levelsize = q.size();
             vector<int> current;
-            for (int i=0;i<levelsize;++i) {
+            for (int i = 0; i < levelsize; ++i) {
                 TreeNode *node = q.front();
                 q.pop();
                 current.push_back(node->val);
@@ -60,7 +59,7 @@ private:
     static int sum(const vector<int> &nums) {
         int sum = 0;
         const int sizeNums = nums.size();
-        for (int i=0;i<sizeNums;++i) {
+        for (int i = 0; i < sizeNums; ++i) {
             sum += nums[i];
         }
         return sum;
