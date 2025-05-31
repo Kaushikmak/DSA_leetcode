@@ -28,4 +28,11 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Medium/1302_Deepest_Leaves_Sum/solution.cpp
         Hard/297_Serialize_and_Deserialize_Binary_Tree/optimized.cpp
         Medium/1302_Deepest_Leaves_Sum/optimized.cpp
-        Medium/103_Binary_Tree_Zigzag_Level_Order_Traversal/solution.cpp)
+        Medium/103_Binary_Tree_Zigzag_Level_Order_Traversal/solution.cpp
+        Medium/98_Validate_Binary_Search_Tree/solution.cpp
+        Medium/99_Recover_Binary_Search_Tree/solution.cpp
+        Algorithms/Tree/Morris_Inorder_traversal.cpp
+        Easy/144_Binary_Tree_Preorder_Traversal/Solution.cpp
+        Easy/145_Binary_Tree_Postorder_Traversal/Solution.cpp
+        Medium/102_Binary_Tree_Level_Order_Traversal/Solution.cpp
+        Medium/107_Binary_Tree_Level_Order_Traversal_II/Solution.cpp)
