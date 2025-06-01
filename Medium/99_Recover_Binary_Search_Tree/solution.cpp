@@ -23,6 +23,7 @@ class Solution {
 public:
     // inorder is sorted
     // find inorder sort it and arrange nodes accordingly
+    // think of optimized approach!!
     void recoverTree(TreeNode *root) {
         vector<int> inorderArray;
         inOrder(root, inorderArray);

@@ -35,4 +35,6 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Easy/144_Binary_Tree_Preorder_Traversal/Solution.cpp
         Easy/145_Binary_Tree_Postorder_Traversal/Solution.cpp
         Medium/102_Binary_Tree_Level_Order_Traversal/Solution.cpp
-        Medium/107_Binary_Tree_Level_Order_Traversal_II/Solution.cpp)
+        Medium/107_Binary_Tree_Level_Order_Traversal_II/Solution.cpp
+        Medium/236_Lowest_Common_Ancestor_of_a_Binary_Tree/Solution.cpp
+        Algorithms/Tree/Ancestors_of_node.cpp)
