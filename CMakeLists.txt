@@ -39,4 +39,5 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Medium/236_Lowest_Common_Ancestor_of_a_Binary_Tree/Solution.cpp
         Algorithms/Tree/Ancestors_of_node.cpp
         Hard/135_Candy/Solution.cpp
-        Medium/2929_Distribute_Candies_Among_Children_II/Solution.cpp)
+        Medium/2929_Distribute_Candies_Among_Children_II/Solution.cpp
+        Medium/1372_Longest_ZigZag_Path_in_a_Binary_Tree/Solution.cpp)

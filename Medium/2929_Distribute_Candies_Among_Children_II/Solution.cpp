@@ -1,4 +1,3 @@
-
 /*
 Example 1:
 
@@ -13,6 +12,7 @@ Explanation: There are 10 ways to distribute 3 candies such that no child gets m
  */
 
 
+#include <algorithm>
 // star and pipe example
 /*
     suppose we have 5 stars and need to distribute over 3 kids
@@ -29,10 +29,27 @@ Explanation: There are 10 ways to distribute 3 candies such that no child gets m
     hence to distribute 5 stars among 3 kids are 5+3-1 C 3-1 or 5+3-1 C 5
  */
 // https://www.youtube.com/watch?v=eL_3cDp0zjE
+/*
+ * child 1 min = n - 2*limit assigned limit candies to both child 2 & 3
+ * child 2 max = min( n , limit )
+ * now child 2 and 3 have say N = n-i
+ *
+ */
+
+using namespace std;
 
 class Solution {
 public:
     long long distributeCandies(int n, int limit) {
-
+        const long long child1min = max(0LL, n - 2LL * limit);
+        const long long child1max = min(n, limit);
+        long long ways = 0;
+        for (int i = child1min; i <= child1max; ++i) {
+            int N = n - i;
+            const long long child2min = max(0, N - limit);
+            const long long child2max = min(N, limit);
+            ways += child2max - child2min + 1;
+        }
+        return ways;
     }
 };
