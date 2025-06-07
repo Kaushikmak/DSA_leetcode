@@ -42,4 +42,6 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Medium/2929_Distribute_Candies_Among_Children_II/Solution.cpp
         Medium/1372_Longest_ZigZag_Path_in_a_Binary_Tree/Solution.cpp
         Medium/2096_Step_By_Step_Directions_From_a_Binary_Tree_Node_to_Another/Solution.cpp
-        Medium/2434_Using_a_Robot_to_Print_the_Lexicographically_Smallest_String/Solution.cpp)
+        Medium/2434_Using_a_Robot_to_Print_the_Lexicographically_Smallest_String/Solution.cpp
+        Medium/3170_Lexicographically_Minimum_String_After_Removing_Stars/Solution.cpp
+        Medium/124_Binary_Tree_Maximum_Path_Sum/Solution.cpp)
