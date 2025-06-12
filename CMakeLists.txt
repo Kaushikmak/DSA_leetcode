@@ -49,4 +49,12 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Medium/386_Lexicographical_Numbers/Optimize.cpp
         Medium/7_Reverse_Integer/Solution.cpp
         Medium/15_3Sum/Solution.cpp
+        Medium/84_Largest_Rectangle_in_Histogram/Solution.cpp
+        Hard/440_K_th_Smallest_in_Lexicographical_Order/Solution.cpp
+        Hard/440_K_th_Smallest_in_Lexicographical_Order/Optimized.cpp
+        Algorithms/Tree/Lexographical_Tree.cpp
+        Easy/3442_Maximum_Difference_Between_Even_and_Odd_Frequency_I/Solution.cpp
+        Hard/3445_Maximum_Difference_Between_Even_and_Odd_Frequency_II/Solution.cpp
+        Hard/3423_Maximu_Difference_Between_Adjacent_Elements_in_a_Circular_Array/Solution.cpp
+        Medium/19_Remove_Nth_Node_From_End_of_List/Solution.cpp
 )
