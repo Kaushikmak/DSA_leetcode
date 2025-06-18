@@ -61,4 +61,5 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Easy/2566_Maximum_Difference_by_Remapping_a_Digit/Solution.cpp
         Easy/2016_Maximum_Difference_Between_Increasing_Elements/Solution.cpp
         Hard/3405_count_the_number_of_arrays_with_k_matching_adjacent_elements/Solution.cpp
+        Medium/2966_divide_array_into_arrays_with_max_difference/Solution.cpp
 )
