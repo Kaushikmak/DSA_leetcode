@@ -62,4 +62,8 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Easy/2016_Maximum_Difference_Between_Increasing_Elements/Solution.cpp
         Hard/3405_count_the_number_of_arrays_with_k_matching_adjacent_elements/Solution.cpp
         Medium/2966_divide_array_into_arrays_with_max_difference/Solution.cpp
+        Medium/15_3Sum/Optimized.cpp
+        Medium/2294_partition_array_such_that_maximum_difference_is_k/Solution.cpp
+        Easy/1_Two_sum/Solution.cpp
+        Medium/658_Find_K_Closest_Elements/Solution.cpp
 )
