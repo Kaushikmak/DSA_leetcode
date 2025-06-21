@@ -67,4 +67,5 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Easy/1_Two_sum/Solution.cpp
         Medium/658_Find_K_Closest_Elements/Solution.cpp
         Medium/3443_Maximum_Manhattan_Distance_After_K_Changes/Solution.cpp
+        Medium/3085_Minimum_Deletions_to_Make_String_K_Special/Solution.cpp
 )
