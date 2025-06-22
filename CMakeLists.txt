@@ -68,4 +68,5 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Medium/658_Find_K_Closest_Elements/Solution.cpp
         Medium/3443_Maximum_Manhattan_Distance_After_K_Changes/Solution.cpp
         Medium/3085_Minimum_Deletions_to_Make_String_K_Special/Solution.cpp
+        Easy/2138_Divide_a_String_Into_Groups_of_Size_k/Solution.cpp
 )
