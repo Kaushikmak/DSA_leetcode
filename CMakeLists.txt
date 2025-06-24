@@ -69,4 +69,8 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Medium/3443_Maximum_Manhattan_Distance_After_K_Changes/Solution.cpp
         Medium/3085_Minimum_Deletions_to_Make_String_K_Special/Solution.cpp
         Easy/2138_Divide_a_String_Into_Groups_of_Size_k/Solution.cpp
+        Hard/2081_Sum_of_k_Mirror_Numbers/Solution.cpp
+        Hard/2081_Sum_of_k_Mirror_Numbers/Optimized.cpp
+        Easy/2200_Find_All_K_Distant_Indices_in_an_Array/Solution.cpp
+        Easy/2200_Find_All_K_Distant_Indices_in_an_Array/Optimized.cpp
 )
