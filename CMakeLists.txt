@@ -73,4 +73,7 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Hard/2081_Sum_of_k_Mirror_Numbers/Optimized.cpp
         Easy/2200_Find_All_K_Distant_Indices_in_an_Array/Solution.cpp
         Easy/2200_Find_All_K_Distant_Indices_in_an_Array/Optimized.cpp
+        GoogleOAPrep/LeetCode20/MaximumTime/OA2019_Maximum_Time.cpp
+        Hard/2040_Kth_Smallest_Product_of_Two_Sorted_Arrays/Solution.cpp
+        Medium/2311_Longest_Binary_Subsequence_Less_Than_or_Equal_to_K/Solution.cpp
 )
