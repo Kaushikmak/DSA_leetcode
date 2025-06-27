@@ -76,4 +76,5 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         GoogleOAPrep/LeetCode20/MaximumTime/OA2019_Maximum_Time.cpp
         Hard/2040_Kth_Smallest_Product_of_Two_Sorted_Arrays/Solution.cpp
         Medium/2311_Longest_Binary_Subsequence_Less_Than_or_Equal_to_K/Solution.cpp
+        Hard/2014_Longest_Subsequence_Repeated_k_Times/Solution.cpp
 )
