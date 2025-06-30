@@ -79,4 +79,6 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Hard/2014_Longest_Subsequence_Repeated_k_Times/Solution.cpp
         Easy/2099_Find_Subsequence_of_Length_K_With_the_Largest_Sum/Solution.cpp
         Easy/2099_Find_Subsequence_of_Length_K_With_the_Largest_Sum/Solution2.cpp
+        Medium/1498_Number_of_Subsequences_That_Satisfy_the_Given_Sum_Condition/Solution.cpp
+        Easy/594_Longest_Harmonious_Subsequence/Solution.cpp
 )
