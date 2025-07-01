@@ -81,4 +81,5 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Easy/2099_Find_Subsequence_of_Length_K_With_the_Largest_Sum/Solution2.cpp
         Medium/1498_Number_of_Subsequences_That_Satisfy_the_Given_Sum_Condition/Solution.cpp
         Easy/594_Longest_Harmonious_Subsequence/Solution.cpp
+        Easy/3330_Find_the_Original_Typed_String_I/Solution.cpp
 )
