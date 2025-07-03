@@ -86,4 +86,12 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Algorithms/kadane/kadanes_algorithm_for_maximum_sum.cpp
         Medium/53_Maximum_Subarray/Solution.cpp
         "Medium/50_Pow_(_x_n_)/Solution.cpp"
+        Hard/3333_Find_the_Original_Typed_String_II/Solution.cpp
+        TopicWise/BinarySearch/BS1.cpp
+        Easy/3304_find_the_k_th_character_in_string_game_i/Solution.cpp
+        Easy/217_contains_duplicate/Solution.cpp
+        STL/hashSet.cpp
+        Easy/1929_concatenation_of_array/Solution1.cpp
+        Easy/1929_concatenation_of_array/Solution2.cpp
+        Easy/242_valid_anagram/Solution1.cpp
 )
