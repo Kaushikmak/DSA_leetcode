@@ -18,3 +18,22 @@ Also edge case is that if both strings are of different size then it must not be
 
 ### Approach 2
 
+store key value pairs in Hash Map of both the strings
+if both Hash Map are same then we got the result
+
+- store key value pair in Hash Map of both strings
+- compare both Hash Maps `sMap == tMap`
+- Time complexity: O( n + m )
+- Space complexity: O( n + m ) or we can say O(1) because worst case is O( 26 + 26 )
+
+### Approach 3
+
+we take a vector of size 26 and initialize it with 0, `count++` if char exists in `s` strings and `count--` if that char is present in `t` string.
+And finally we check if all our vector elements are `0`.
+Because according to definition of anagram characters can't repeat, if say `x` is present in s `2` times then it must present `2` times in t also.
+
+- initialize vector `vector<int> result(26,0)`
+- `++` if present in `s` and `--` if present in `t` or vice versa
+- finally check if all elements in vector is `0`
+- Time complexity: O( n ) if  m == n
+- space complexity: O(1) 

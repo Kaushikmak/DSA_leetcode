@@ -10,13 +10,14 @@ public:
 
         while (s.length() < k) {
             string temp = s;
-            for (const char c : temp) {
+            for (const char c: temp) {
                 s += nextChar(c);
             }
         }
 
         return s[k - 1];
     }
+
 private:
     char nextChar(const char c) {
         if (c == 'z') return 'a';

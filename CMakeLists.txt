@@ -64,7 +64,7 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Medium/2966_divide_array_into_arrays_with_max_difference/Solution.cpp
         Medium/15_3Sum/Optimized.cpp
         Medium/2294_partition_array_such_that_maximum_difference_is_k/Solution.cpp
-        Easy/1_Two_sum/Solution.cpp
+        Easy/1_Two_sum/Solution2.cpp
         Medium/658_Find_K_Closest_Elements/Solution.cpp
         Medium/3443_Maximum_Manhattan_Distance_After_K_Changes/Solution.cpp
         Medium/3085_Minimum_Deletions_to_Make_String_K_Special/Solution.cpp
@@ -94,4 +94,12 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Easy/1929_concatenation_of_array/Solution1.cpp
         Easy/1929_concatenation_of_array/Solution2.cpp
         Easy/242_valid_anagram/Solution1.cpp
+        Easy/242_valid_anagram/Solution2.cpp
+        Easy/242_valid_anagram/Solution3.cpp
+        Easy/1_Two_sum/Solution1.cpp
+        Easy/1_Two_sum/Solution3.cpp
+        Easy/1_Two_sum/Solution4.cpp
+        Easy/14_longest_common_prefix/Solution.cpp
+        Hard/3307_find_the_k_th_character_in_string_game_ii/Solution1.cpp
+        Hard/3307_find_the_k_th_character_in_string_game_ii/Solution2.cpp
 )
