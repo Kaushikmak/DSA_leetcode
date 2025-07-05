@@ -102,4 +102,6 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Easy/14_longest_common_prefix/Solution.cpp
         Hard/3307_find_the_k_th_character_in_string_game_ii/Solution1.cpp
         Hard/3307_find_the_k_th_character_in_string_game_ii/Solution2.cpp
+        Easy/1394_find_lucky_integer_in_an_array/Solution1.cpp
+        Easy/1394_find_lucky_integer_in_an_array/Solution2.cpp
 )
