@@ -15,3 +15,5 @@ every other string
 - Time complexity: O( n * m ) number of strings * length of shortest string
 - Space complexity: O( m ) length of shortest string
 
+### Approach 2
+

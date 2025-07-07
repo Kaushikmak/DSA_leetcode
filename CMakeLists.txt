@@ -99,10 +99,12 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Easy/1_Two_sum/Solution1.cpp
         Easy/1_Two_sum/Solution3.cpp
         Easy/1_Two_sum/Solution4.cpp
-        Easy/14_longest_common_prefix/Solution.cpp
+        Easy/14_longest_common_prefix/Solution1.cpp
         Hard/3307_find_the_k_th_character_in_string_game_ii/Solution1.cpp
         Hard/3307_find_the_k_th_character_in_string_game_ii/Solution2.cpp
         Easy/1394_find_lucky_integer_in_an_array/Solution1.cpp
         Easy/1394_find_lucky_integer_in_an_array/Solution2.cpp
         Medium/1865_finding_pairs_with_a_certain_sum/Solution1.cpp
+        Easy/14_longest_common_prefix/Solution2.cpp
+        Medium/1353_maximum_number_of_events_that_can_be_attended/Solution1.cpp
 )

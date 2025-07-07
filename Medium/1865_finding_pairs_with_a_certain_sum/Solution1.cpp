@@ -5,10 +5,12 @@ using namespace std;
 
 class FindSumPairs {
 public:
+    // make vectors global to them anywhere
     vector<int> vec1;
     vector<int> vec2;
     unordered_map<int,int> mp;
     FindSumPairs(vector<int>& nums1, vector<int>& nums2) {
+        // initialize vectors
         vec1 = nums1;
         vec2 = nums2;
         for (int &x: vec2) {
