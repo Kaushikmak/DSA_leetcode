@@ -107,4 +107,9 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Medium/1865_finding_pairs_with_a_certain_sum/Solution1.cpp
         Easy/14_longest_common_prefix/Solution2.cpp
         Medium/1353_maximum_number_of_events_that_can_be_attended/Solution1.cpp
+        Medium/49_group_anagrams/Solution1.cpp
+        Medium/49_group_anagrams/Solution2.cpp
+        Medium/49_group_anagrams/Solution3.cpp
+        Medium/49_group_anagrams/Solution3Optimized.cpp
+        Hard/1751_maximum_number_of_events_that_can_be_attended_ii/Solution1.cpp
 )
