@@ -112,4 +112,6 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Medium/49_group_anagrams/Solution3.cpp
         Medium/49_group_anagrams/Solution3Optimized.cpp
         Hard/1751_maximum_number_of_events_that_can_be_attended_ii/Solution1.cpp
+        Hard/1751_maximum_number_of_events_that_can_be_attended_ii/Solution2.cpp
+        Hard/1751_maximum_number_of_events_that_can_be_attended_ii/Solution3.cpp
 )

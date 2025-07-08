@@ -1,5 +1,4 @@
 #include <algorithm>
-#include <pthread.h>
 #include <vector>
 
 using namespace std;
@@ -10,7 +9,7 @@ public:
         // events = [[1,2,4],[3,4,3],[2,3,1]], k = 2
         // O/P = 7
         sort(events.begin(),events.end());
-        const int n = events.size();
+        const unsigned int n = events.size();
         return solve(0,k,n,events);
     }
 
