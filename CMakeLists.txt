@@ -9,6 +9,7 @@ file(GLOB_RECURSE ALL_SOURCE_FILES
         "Medium/*.cpp"
         "Easy/*.cpp"
         "Algorithms/*.cpp"
+        "TopicWise/*.cpp"
 )
 
 add_executable(Leetcode ${ALL_SOURCE_FILES}
@@ -73,7 +74,6 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Hard/2081_Sum_of_k_Mirror_Numbers/Optimized.cpp
         Easy/2200_Find_All_K_Distant_Indices_in_an_Array/Solution.cpp
         Easy/2200_Find_All_K_Distant_Indices_in_an_Array/Optimized.cpp
-        GoogleOAPrep/LeetCode20/MaximumTime/OA2019_Maximum_Time.cpp
         Hard/2040_Kth_Smallest_Product_of_Two_Sorted_Arrays/Solution.cpp
         Medium/2311_Longest_Binary_Subsequence_Less_Than_or_Equal_to_K/Solution.cpp
         Hard/2014_Longest_Subsequence_Repeated_k_Times/Solution.cpp
@@ -114,4 +114,10 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Hard/1751_maximum_number_of_events_that_can_be_attended_ii/Solution1.cpp
         Hard/1751_maximum_number_of_events_that_can_be_attended_ii/Solution2.cpp
         Hard/1751_maximum_number_of_events_that_can_be_attended_ii/Solution3.cpp
+        Medium/3439_reschedule_meetings_for_maximum_free_time_i/Solution1.cpp
+        Easy/27_remove_element/Solution1.cpp
+        Easy/27_remove_element/Solution2.cpp
+        Medium/3440_reschedule_meetings_for_maximum_free_time_ii/Solution1.cpp
+        Hard/2402_meeting_rooms_iii/Solution1.cpp
+        TopicWise/Heap/heap.cpp
 )
