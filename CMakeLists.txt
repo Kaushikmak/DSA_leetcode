@@ -120,4 +120,6 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Medium/3440_reschedule_meetings_for_maximum_free_time_ii/Solution1.cpp
         Hard/2402_meeting_rooms_iii/Solution1.cpp
         TopicWise/Heap/heap.cpp
+        TopicWise/Heap/STL_priority_queue.cpp
+        Medium/2410_maximum_matching_of_players_with_trainers/Solution1.cpp
 )
