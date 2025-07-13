@@ -124,4 +124,5 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Medium/2410_maximum_matching_of_players_with_trainers/Solution1.cpp
         Medium/215_kth_largest_element_in_an_array/Solution1.cpp
         Medium/215_kth_largest_element_in_an_array/Solution2.cpp
+        Medium/347_top_k_frequent_elements/Solution1.cpp
 )
