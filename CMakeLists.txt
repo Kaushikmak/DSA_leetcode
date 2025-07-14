@@ -125,4 +125,6 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Medium/215_kth_largest_element_in_an_array/Solution1.cpp
         Medium/215_kth_largest_element_in_an_array/Solution2.cpp
         Medium/347_top_k_frequent_elements/Solution1.cpp
+        Easy/1290_convert_binary_number_in_a_linked_list_to_integer/Solution1.cpp
+        Easy/1290_convert_binary_number_in_a_linked_list_to_integer/Solution2.cpp
 )
