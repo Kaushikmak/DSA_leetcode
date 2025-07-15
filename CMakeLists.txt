@@ -127,4 +127,8 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Medium/347_top_k_frequent_elements/Solution1.cpp
         Easy/1290_convert_binary_number_in_a_linked_list_to_integer/Solution1.cpp
         Easy/1290_convert_binary_number_in_a_linked_list_to_integer/Solution2.cpp
+        Medium/692_top_k_frequent_words/Solution1.cpp
+        Hard/23_merge_k_sorted_lists/Solution2.cpp
+        Easy/3136_Valid_Word/Solution1.cpp
+        Easy/2942_Find_Words_Containing_Character/Solution1.cpp
 )
