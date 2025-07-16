@@ -131,4 +131,5 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Hard/23_merge_k_sorted_lists/Solution2.cpp
         Easy/3136_Valid_Word/Solution1.cpp
         Easy/2942_Find_Words_Containing_Character/Solution1.cpp
+        Medium/3201_find_the_maximum_length_of_valid_subsequence_i/Solution1.cpp
 )
