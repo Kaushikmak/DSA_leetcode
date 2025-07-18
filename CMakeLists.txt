@@ -132,4 +132,7 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Easy/3136_Valid_Word/Solution1.cpp
         Easy/2942_Find_Words_Containing_Character/Solution1.cpp
         Medium/3201_find_the_maximum_length_of_valid_subsequence_i/Solution1.cpp
+        Medium/3201_find_the_maximum_length_of_valid_subsequence_i/Solution2.cpp
+        TopicWise/DP_TLE/lec1/dpIntro.cpp
+        Hard/2163_minimum_difference_in_sums_after_removal_of_elements/Solution1.cpp
 )
