@@ -135,4 +135,8 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Medium/3201_find_the_maximum_length_of_valid_subsequence_i/Solution2.cpp
         TopicWise/DP_TLE/lec1/dpIntro.cpp
         Hard/2163_minimum_difference_in_sums_after_removal_of_elements/Solution1.cpp
+        Hard/632_smallest_range_covering_elements_from_k_lists/Solution1.cpp
+        Medium/200_Number_of_Islands/Solution1.cpp
+        Medium/130_Surrounded_Regions/Solution1.cpp
+        Medium/695_Max_Area_of_Island/solution1.cpp
 )
