@@ -139,4 +139,5 @@ add_executable(Leetcode ${ALL_SOURCE_FILES}
         Medium/200_Number_of_Islands/Solution1.cpp
         Medium/130_Surrounded_Regions/Solution1.cpp
         Medium/695_Max_Area_of_Island/solution1.cpp
+        Medium/1020_Number_of_Enclaves/Solution1.cpp
 )
